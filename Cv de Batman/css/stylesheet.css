@@ -1,0 +1,22 @@
+header {
+    background-color: rgb(255, 241, 226);
+}
+
+
+.titulo {
+    background-color: #819FF7;
+    text-align: center;
+    color: #243b81;
+}
+
+.subtitulo {
+    background-color: #819FF7;
+}
+
+footer {
+    background-color: #425aa0;
+    color: white;
+    text-align: center;
+    
+}
+
