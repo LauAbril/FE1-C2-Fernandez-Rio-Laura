@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="./css/stylesheet.css" rel="stylesheet">
     <title>Petshop</title>
 </head>
 <body>
     <header>
-        <p>Grandes ofertas en comedores</p>
-        <ul>
+
+    <section class="idioma">
+        <p class="ofertas">Grandes ofertas en comedores</p>
+        <ul class="inline">
             <li>Español</li>
             <li>ARG$</li>
         </ul>
+    </section>    
+        
+    <nav class="menu">
         <img src="img/Logo.png" alt="Logo">
-    <nav>
-        <ul>
+        <ul class="inline">
             <li>Categorias</li>
             <li>Pets</li>
             <li>Nosotros</li>
@@ -25,31 +33,56 @@
     </header>
 
     <main>
-        <img src="img/portada header.png" alt="Portada banner">
-        <h2>¡Es un placer tenerte aquí!</h2>
-        <h4>¡Comederos en descuento!</h4>
-        <p>COMEDEROS</p>
+        <section id="banner">
+            <div id= "texto">
+                <h2 class= "titulo">¡Es un placer tenerte aquí!</h2>
+                <h4>¡Comederos en descuento!</h4>
+                <p id= "comederos">COMEDEROS</p>
+            </div>
+        </section>
 
-        <section>
+    
+        <div id="destacados">
             <img src="img/pawprint 1.png" alt="patita">
-            <h1>Productos destacados</h1>
+            <h1>Productos Destacados</h1>
+        </div>
+
+        <nav id= "productos menu">
             <ul>
                 <li>Comederos</li>
                 <li>Accesorios</li>
                 <li>Comida</li>
             </ul>
-            <img src="img/churrasquito.png">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
+        </nav>
 
-            <img src="img/comedero.png">
-            <p>Comedero para perro</p>
-            <p>$250</p>
-
-            <img src="img/Huesito.png">
-            <p>Juguete Huesito</p>
-            <p>$650</p>
+        <section id="productos">
+            <div id="churrasquito">
+                <img src="img/churrasquito.png">
+                <p>Juguete Churrasquito</p>
+                <p class="precio">$150</p>
+            </div>    
+            <div id="bowl">
+                <img src="img/comedero.png">
+                <p>Comedero para perro</p>
+                <p class="precio">$250</p>
+            </div>
+            <div id="huesito">
+                <img src="img/Huesito.png">
+                <p>Juguete Huesito</p>
+                <p class="precio">$650</p>
+            </div>
         </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <ul class="formulario">
+                <li>Nombre y Apellido</li>
+                <li>Ingresá tu correo electrónico</li>
+                <li>Teléfono</li>
+            </ul>
+
+        </section>
+        
     </main>
 
 
