@@ -2,25 +2,29 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.idioma {
+#idioma {
     background-color: #222222;
 }
 
-.ofertas {
+#ofertas {
     color:white;
 }
 
-.inline {
+.menu li {
     display: inline;
     color:white;
     margin-left: 50px;
     
 }
 
-.menu {
+#menu {
     background-color: #F0A83E;
     
 }
+.fa-paw {
+    color:white;
+}
+
 
 #banner {
     background-image: url(../img/portada\ header.png);
@@ -49,29 +53,24 @@ body {
 
 }
 
-#destacados {
+/*#destacados {
     position:absolute;
     display: block;
     text-align: center;     
     color: #3C2313;
     width:100%;
     margin-top: 30px;
-}
+}*/
 
-#productos menu {
+.productos_menu li {
     display: inline;
-    color: #666666;
-    bottom: 80%;
-}
-#productos {
-    display: block;
-    
+    color: #222222;
+    margin-left: 15px;
 }
 
-#churrasquito {
+.producto {
     text-align: center;
     position: relative;
-    margin-top: 17%;
     margin-left: 10%;
     background-color: #FBFAF6;
     width: fit-content;
@@ -84,30 +83,31 @@ body {
     color:#F0A83E;
 }
 
-#bowl {
-    text-align: center;
-    position: relative;
-    margin-left: 10%;
-    background-color: #FBFAF6;
-    width: fit-content;
-    padding-bottom: 1px;
-    font-weight: bold;
-    color: #3C2313;
-}
-
-#huesito {
-    text-align: center;
-    position: relative;
-    margin-left: 10%;
-    background-color: #FBFAF6;
-    width: fit-content;
-    padding-bottom: 1px;
-    font-weight: bold;
-    color: #3C2313;
-}
-
-ul div {
-    color:white;
+footer {
     background-color: #3C2313;
-    display:block;
+    color:#8A8787;
+}
+
+footer h3 {
+    color: white;
+}
+
+.fa-envelope {
+    color:white;
+    font-size: 40px;
+}
+
+.fa-map-marker-alt {
+    color:white;
+    font-size: 40px;
+}
+.fa-phone-alt {
+    color:white;
+    font-size: 40px;
+}
+
+#derechos {
+    background-color: #F0A83E;
+    color:#FBFAF6;
+    text-align: center;
 }

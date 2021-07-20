@@ -7,27 +7,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/42d3a0e9ff.js" crossorigin="anonymous"></script>
     <link href="./css/stylesheet.css" rel="stylesheet">
     <title>Petshop</title>
 </head>
 <body>
     <header>
 
-    <section class="idioma">
-        <p class="ofertas">Grandes ofertas en comedores</p>
-        <ul class="inline">
+    <section id="idioma">
+        <p id="ofertas">Grandes ofertas en comedores</p>
+        <ul class="menu">
             <li>Español</li>
             <li>ARG$</li>
         </ul>
     </section>    
         
-    <nav class="menu">
-        <img src="img/Logo.png" alt="Logo">
-        <ul class="inline">
-            <li>Categorias</li>
-            <li>Pets</li>
-            <li>Nosotros</li>
-            <li>Contactanos</li>
+    <nav id="menu">
+        <img src="img/LogoV1.png" alt="Logo">
+        <ul class="menu">
+            <li><i class="fas fa-paw"></i> Categorias</li>
+            <li><i class="fas fa-paw"></i> Pets</li>
+            <li><i class="fas fa-paw"></i> Nosotros</li>
+            <li><i class="fas fa-paw"></i> Contactanos</li>
         </ul>
     </nav>    
     </header>
@@ -41,54 +42,65 @@
             </div>
         </section>
 
-    
         <div id="destacados">
             <img src="img/pawprint 1.png" alt="patita">
             <h1>Productos Destacados</h1>
         </div>
 
-        <nav id= "productos menu">
-            <ul>
+        <nav>
+            <ul class= "productos_menu">
                 <li>Comederos</li>
                 <li>Accesorios</li>
                 <li>Comida</li>
             </ul>
         </nav>
 
-        <section id="productos">
-            <div id="churrasquito">
+        <section id="catalogo">
+            <div class="producto">
                 <img src="img/churrasquito.png">
                 <p>Juguete Churrasquito</p>
                 <p class="precio">$150</p>
             </div>    
-            <div id="bowl">
+            <div class="producto">
                 <img src="img/comedero.png">
                 <p>Comedero para perro</p>
                 <p class="precio">$250</p>
             </div>
-            <div id="huesito">
+            <div class="producto">
                 <img src="img/Huesito.png">
                 <p>Juguete Huesito</p>
                 <p class="precio">$650</p>
             </div>
-        </section>
-
-        <section id="contacto">
-            <h2>Contáctanos</h2>
-            <ul class="formulario">
-                <li>Nombre y Apellido</li>
-                <li>Ingresá tu correo electrónico</li>
-                <li>Teléfono</li>
-            </ul>
-
         </section>
         
     </main>
 
 
     <footer>
-        <br><br>
-        <p>Todos los derechos reservados Front End</p>
+        <br>
+        <section>
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Localidad</h3>
+                <p>Calle - provincia</p>
+            </div>
+            <div>
+                <i class="fas fa-phone-alt"></i>
+                <h3>Teléfono</h3>
+                <p>Número de teléfono</p>
+            </div>
+            <div>
+                <i class="far fa-envelope"></i>
+                <h3>Correo Electrónico</h3>
+                <p>Dirección de correo</p>
+            </div>
+            
+            <img src="img/LogoV2.png" alt="Logo">
+            <p id="derechos">Todos los derechos reservados Front End</p>
+        </section>
+
+
+        
     </footer>
 </body>
 </html>
