@@ -15,92 +15,116 @@
     <header>
 
     <section id="idioma">
-        <p id="ofertas">Grandes ofertas en comedores</p>
+        <p>Grandes ofertas en comedores</p>
         <ul class="menu">
             <li>Español</li>
             <li>ARG$</li>
         </ul>
     </section>    
         
-    <nav id="menu">
+    <section id="menu">
         <img src="img/LogoV1.png" alt="Logo">
-        <ul class="menu">
-            <li><i class="fas fa-paw"></i> Categorias</li>
-            <li><i class="fas fa-paw"></i> Pets</li>
-            <li><i class="fas fa-paw"></i> Nosotros</li>
-            <li><i class="fas fa-paw"></i> Contactanos</li>
-        </ul>
-    </nav>    
+        <nav id="lista">
+            <ul class="menu">
+                <li><i class="fas fa-paw"></i> Categorias</li>
+                <li><i class="fas fa-paw"></i> Pets</li>
+                <li><i class="fas fa-paw"></i> Nosotros</li>
+                <li><i class="fas fa-paw"></i> Contactanos</li>
+            </ul>
+        </nav>
+    </section>    
+
     </header>
 
     <main>
         <section id="banner">
-            <div id= "texto">
-                <h2 class= "titulo">¡Es un placer tenerte aquí!</h2>
+            <div id="texto">
+                <h2>¡Es un placer tenerte aquí!</h2>
                 <h4>¡Comederos en descuento!</h4>
-                <p id= "comederos">COMEDEROS</p>
+                <p>COMEDEROS</p>
             </div>
         </section>
 
         <div id="destacados">
             <img src="img/pawprint 1.png" alt="patita">
             <h1>Productos Destacados</h1>
+            <nav>
+                <ul>
+                    <li>Comederos</li>
+                    <li>Accesorios</li>
+                    <li>Comida</li>
+                </ul>
+            </nav>
         </div>
 
-        <nav>
-            <ul class= "productos_menu">
-                <li>Comederos</li>
-                <li>Accesorios</li>
-                <li>Comida</li>
-            </ul>
-        </nav>
-
         <section id="catalogo">
-            <div class="producto">
+            <div>
                 <img src="img/churrasquito.png">
                 <p>Juguete Churrasquito</p>
                 <p class="precio">$150</p>
             </div>    
-            <div class="producto">
+            <div>
                 <img src="img/comedero.png">
                 <p>Comedero para perro</p>
                 <p class="precio">$250</p>
             </div>
-            <div class="producto">
+            <div>
                 <img src="img/Huesito.png">
                 <p>Juguete Huesito</p>
                 <p class="precio">$650</p>
             </div>
         </section>
         
+        <section id="contactanos">
+            <h2>Contáctanos</h2>
+            <form action="./registros.html" method="POST">
+                <label for="nombre"></label>
+                <input type="text" placeholder="Nombre y Apellido" name="nombre" id="nombre"> <br>
+
+                <label for="email"></label>
+                <input type="email" placeholder="Ingresá tu correo electrónico" name="email" id="email"> <br>
+
+                <label for="telefono"></label>
+                <input type="tel" placeholder="Teléfono" name="telefono" id="telefono"> <br>
+            </form>
+            <div>
+                <button type="reset" id="reset">Resetear</button>
+                <button type="submit" id="enviar">Enviar</button>
+            </div>
+        </section>
+
+        <section id="sub">
+            <h2>Subscríbete para más novedades</h2>
+        </section>
+
     </main>
 
 
     <footer>
         <br>
         <section>
-            <div>
-                <i class="fas fa-map-marker-alt"></i>
-                <h3>Localidad</h3>
-                <p>Calle - provincia</p>
+            <div id="footer_menu">
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Localidad</h3>
+                    <p>Calle - provincia</p>
+                </div>
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Teléfono</h3>
+                    <p>Número de teléfono</p>
+                </div>
+                <div>
+                    <i class="far fa-envelope"></i>
+                    <h3>Correo Electrónico</h3>
+                    <p>Dirección de correo</p>
+                </div>
             </div>
-            <div>
-                <i class="fas fa-phone-alt"></i>
-                <h3>Teléfono</h3>
-                <p>Número de teléfono</p>
-            </div>
-            <div>
-                <i class="far fa-envelope"></i>
-                <h3>Correo Electrónico</h3>
-                <p>Dirección de correo</p>
-            </div>
-            
             <img src="img/LogoV2.png" alt="Logo">
-            <p id="derechos">Todos los derechos reservados Front End</p>
-        </section>
+        </section>    
+        <p id="derechos">Todos los derechos reservados Front End</p>
 
 
-        
     </footer>
 </body>
 </html>

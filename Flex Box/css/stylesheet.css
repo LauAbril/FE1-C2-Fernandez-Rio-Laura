@@ -1,0 +1,108 @@
+* {
+    margin:0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+#banner {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    
+
+}
+
+#menu li {
+    color: white;
+    display: inline;
+    margin: 10px;
+    
+}
+
+/* MAIN STARTS HERE ---------- */
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+}
+#delivery {
+    background-image:url(../img/delivery.png);
+    width: 490px;
+    height: 350px;
+    padding: 15px;
+    background-repeat: no-repeat;
+
+}
+
+#podio{
+    background-color: white;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+#carta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#pizzas li {
+    font-weight: bold;
+    padding: 6px;
+}
+
+h3 {
+    margin-left: 90px;
+    margin-top: 60px;
+
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#envio {
+    text-align: left;
+}
+span {
+    color: white;
+}
+
+/* FOOTER STARTS HERE -------*/
+
+footer div {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+#footer li {
+    color: white;
+    list-style: none;
+    padding: 7px;
+ 
+}
+
+footer {
+    align-items: flex-end;
+    
+}
